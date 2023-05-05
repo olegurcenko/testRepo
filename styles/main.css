@@ -1,0 +1,65 @@
+a{
+  text-decoration: none;
+}
+.sea-bg{
+    background-image: url(../images/sea-bg.jpg);
+    
+    background-size: cover;
+}
+.line-between-block{
+    height: 10px;
+    width: 100%;
+    padding: 0;
+    background-color: var(--color1);
+}
+.font-b-s-25{
+  font-size: 20px;
+}
+@media(min-width: 600px){
+  .font-b-s-25{
+    font-size: 25px;
+  }
+}
+.service-img{
+    width: 100%;
+}
+.service-img-span{
+    display: block;
+    overflow-y: hidden;
+    width: auto;
+    height: 185px;
+}
+.b-2px-white-top{
+  border: 2px solid #efefef;
+  border-bottom: none;
+}
+.bg-white-bottom{
+  border: 2px solid #efefef;
+  border-top: none;
+}
+.contact-us{
+  
+  /* background-color: none; */
+  /* padding-block: 20px; */
+  /* background-color: var(--color1); */
+}
+
+
+
+.video-elem{
+  background-image: url(../images/bg-charade.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+.mw-fc{
+  max-width: fit-content;
+  text-align: center;
+}
+.gluter{
+  --bs-gutter-x: 0
+}

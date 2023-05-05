@@ -1,0 +1,86 @@
+@import url(./bootstrap.min.css);
+@import url(./aos.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./fontello.css);
+*{  
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@media(max-width: 900px){
+    .text-40{
+        font-size: 20px!important;
+    }
+}
+.text-40{
+    font-size: 30px;
+}
+:root{
+    --color1: #0a1b40;
+    --color2: #6D96ED;
+    --color3: #2664EB;
+    --color4: #31446B;
+    --color5: #1D4EB8;
+    --color1-07: #0a1b40b5; 
+    --color1-09: #0a1b40d8; 
+    --color2-07: #6D96EDb5;
+    --color3-07: #2664EBb5;
+    --color4-07: #31446Bb5;
+    --color5-07: #1D4EB8b5;
+}
+.bg-color-1{
+    background-color: var(--color1-07);
+    padding: 50px 50px 50px 50px;   
+    border-radius: 5px;
+}
+.bg-color-1-wide{
+    background-color: var(--color1-09);
+    padding-inline: 50px;   
+    width: 20rem;
+    padding-block: 30px;   
+    border-radius: 5px;
+}
+.b-2px-white{
+    border: 2px solid #efefef;
+}
+.hover-btn:hover{
+    background-color: var(--color1);
+    transition: 0.5s;
+}
+.bg-color-1-nop{
+    background-color: var(--color1-07);
+    /* border-radius: 5px; */
+    padding: 0;
+}
+.bg-color-1-w-100{
+    /* background-color: var(--color1-07); */
+    width: 100%!important;
+    /* padding: 0!important; */
+    /* margin: 0; */
+}
+.bg-color-2{
+    background-color: var(--color2-07);
+}
+.bg-color-3{
+    background-color: var(--color3-07);
+}
+.bg-color-4{
+    background-color: var(--color4-07);
+}
+.bg-color-5{
+    background-color: var(--color5-07);
+}
+
+.p-100_custom {
+    padding: 100px 0;
+}
+.p-300_custom {
+    padding: 300px ;
+}
+
+.bg-color4-top-header{
+    max-width: 100vw;
+    background-color: var(--color4-07);
+}

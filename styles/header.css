@@ -1,0 +1,40 @@
+.header{
+    padding: 300px 0;
+}
+.text-40-90{
+    font-size: 90px;
+}
+@media(max-width: 600px){
+    .header{
+        background-image: url(../images/phone-top-bg.jpg)!important;
+    }
+    .text-40-90{
+        font-size: 40px;
+    }
+    .boat-logo{
+        display: none;
+    }
+}
+.header{
+    background-image: url(../images/vtb1m7eo68dbh63u.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.boat-logo{
+    height: 50px;
+    width: fit-content;
+    box-sizing: content-box;
+}
+.comp-name-align-center{
+    font-size: 30px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-block: 0;
+    margin-block: 0;
+}
+.header-not-main{
+    align-items: center;
+}
